@@ -1,0 +1,131 @@
+body {
+  text-align: center;
+  margin: 0;
+  color: #707e86;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+.introduction > img {
+  border-radius: 100px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 4.5rem;
+  color: #8CC0DE;
+  font-family: 'Zilla Slab', arial;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #183b50;
+  font-family: 'Sarabun', arial;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #8CC0DE;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+#first {
+  height: 100vh;
+  background-color: #F4F0D7;
+}
+
+#second > div > h2 {
+  margin-bottom: 50px;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding-left: 20%;
+  padding-right: 20%;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+.writing {
+  text-align: left;
+}
+
+.writing > h3 {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.writing > p {
+  font-size: 1.5rem;
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+
+.about-me {
+  margin: 100px 0;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.about-me > div > P {
+  font-size: 1.5rem;
+  line-height: 40px;
+}
+
+.contact-me {
+  margin: 100px 0;
+}
+
+.contact-me > div > P {
+  font-size: 2rem;
+  line-height: 40px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #F4F0D7;
+  height: 130px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  font-size: 1.2rem;
+  display: flex;
+  gap: 20px;
+}
+
+hr {
+  width: 2%;
+  border-top: 6px dotted #707e86;
+}
+
+a {
+  color: #183b50;
+  text-decoration: none;
+}
+
+
+@media (max-width: 600px) {
+  .skills {
+    display: block;
+  }
+  body {
+    width: auto;
+  }
+}
